@@ -1,0 +1,9 @@
+1)   É a parte inicial da comunicação com o cliente, na qual são levantadas as regras de negócio, a ideia do projeto e os requisitos funcionais e não funcionais.
+
+2)  O mal entendimento ou a falta de esclarecimento de determinadas funções ou regras que não foram discutidos de forma correta pode acarretar em um mal entendimento por parte do analista.
+
+3)  Requisitos funcionais são aqueles que o sistema precisa para funcionar, como um sistema de login ou pagamento. Requisitos não funcionais, por outro lado, não são necessários para o funcionamento objetivo do sistema, incluindo a velocidade de carregamento, funções secundárias e segurança.
+
+4)  É um protótipo de aplicativo usado para verificação com o cliente, permitindo assim verificar se o protótipo corresponde às expectativas do cliente ou se na verdade não é o que foi apresentado.
+
+5)  A entrevista é a abordagem mais comum e provavelmente a mais eficiente, pois não requer tanto tempo com o cliente. No entanto, se a conversa for bem direcionada e os pontos de atenção forem esclarecidos, é possível realizar o levantamento de requisitos de forma eficiente.
