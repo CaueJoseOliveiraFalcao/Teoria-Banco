@@ -4,10 +4,39 @@ banco de dados é
     organizacionais predefinidos.
 
 SGBD = sistema de gereciamento de dados = oraclo , mysql 
-  podem ser relacionais = com SQL , informa tipo de dado pra ser amarzenado em cada local
-  ou nao relacionais = sem normas do SQL , como informaçoes variadas sem estruara de arqivos como infirmações de uma rede social
+    podem ser relacionais = com SQL , informa tipo de dado pra ser amarzenado em cada local
+    ou nao relacionais = sem normas do SQL , como informaçoes variadas sem estruara de arqivos como infirmações de uma rede social
 
 Analise de requisitos(comunicação entre cliente e analista) = definir as regras de negocio , e identificar necessidades , requisitos funcionais ou nao funcionais , e validação de dados
     RF = requisitos funcionais = Requisitos da funcionalidade do sistema caso seja comprometido a aplicação nao funciona 
     RNF = requisitos nao-funcionais = Recursos nao funcioais como restrições ,confiabiliade , seguranca , validaçao , velocidade , regras de negocios
-    
+
+    Levantamento de Requisitos 
+        Entrevistas = reunião com clientes 
+        Brainstroming = Sugestao de novas ideias em reunioes
+        Questionario = Formulario enviado para o cliente 
+        JAD = Todos envolvidos no proejtp reunião 
+        Prototipação = apresentação de um prototipo para a validação das regras de negocios 
+
+Modelo Conceitual 
+    MER = modelo entidade relacionamneto = descrição de cada informação do modelo 
+    DER = diagrama entidade relacionamneto = diagram com simbolos e graficos
+
+        Entidade = objetos e pessoas reais do problema como uma classe
+            Forte = independets de outras como um produto ou cliente
+            Fraca = Nessecitam de outras para existir como a COMPRA 
+            Associativa = Auxiliar usuada para associar duas outras entidades ou mais
+
+        Atributos = sao as informações de cada entidade como , nome, cpf ,idade 
+            Simples = Somente uma propiedado
+            Identificador = como um Identificador id 
+            Composto = Mais de uma propiedadde acossiada no mesmo atributo 
+            derivado = devirado de calculos de funções do progama 
+            Multivalorados = Atributos que possuuem mais de um valor por exeplo 1 ou mais telefones
+        Relacionamento = sao associao~es estre entidades como uma função que a PESSOA dirige CARRO
+        Cardinalidade = forma de como as entidades se relacionam 
+            1:1 = uma entidade so se relaciona com a ocorrentcia de 1 entidade
+            1:N = uma entidade com se relaciona com muitas outras como uma fabriante que fabrica varios carros 
+            N:N = varias entidades se relacionam com varias entidades como varios clientes compram varioas produtos 
+            
+
