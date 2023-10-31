@@ -1,0 +1,13 @@
+banco de dados é
+    um conjunto de arquivos muito bem estruturado em que
+    os dados são gravados obedecendo a padrões
+    organizacionais predefinidos.
+
+SGBD = sistema de gereciamento de dados = oraclo , mysql 
+  podem ser relacionais = com SQL , informa tipo de dado pra ser amarzenado em cada local
+  ou nao relacionais = sem normas do SQL , como informaçoes variadas sem estruara de arqivos como infirmações de uma rede social
+
+Analise de requisitos(comunicação entre cliente e analista) = definir as regras de negocio , e identificar necessidades , requisitos funcionais ou nao funcionais , e validação de dados
+    RF = requisitos funcionais = Requisitos da funcionalidade do sistema caso seja comprometido a aplicação nao funciona 
+    RNF = requisitos nao-funcionais = Recursos nao funcioais como restrições ,confiabiliade , seguranca , validaçao , velocidade , regras de negocios
+    
