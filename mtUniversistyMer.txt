@@ -1,0 +1,27 @@
+ALUNOS(cpf , nome , idade , perildo, curso , matricula , numero)
+matricula = atributo identificador 
+cpf = atributo identificador 
+nome = atributo simples 
+idade = atributo simples 
+perildo = atributo derivado
+curso = atributo simples
+numero = atributo simples
+
+FACUDADE(nome , cnpj , quantidade_alunos)
+nome = atributo simples 
+cnpj = atributo identificador 
+quantidade_alunos = atributo derivado
+
+TURMAS(numero , quantidade_alunos_permitida , quantidade_alunos , PROFESSOR)
+numero = atributo identificador
+quantidade_alunos_permitida = atributo simples  
+quantidade_alunos =  atributo derivado
+PROFESSOR = entidade
+
+
+ADMIN(id, nome , cpf)
+
+PROFESSOR(nome, cpf , curso)
+nome = atributo simples 
+cpf = atributo identificador 
+curso = atributo simples 
